@@ -31,7 +31,7 @@ namespace GradeBook.GradeBooks
                 return 'A';
 
             //multiply the threshold by 2 so now we pick up top 40% of students.
-            else if (averageGrade >= grades[threshold * 4 - 1])
+            else if (averageGrade >= grades[threshold * 2 - 1])
                 return 'B';
 
             //multiply the threshold by  3 so we pick the top 60% of students
