@@ -44,7 +44,7 @@ namespace GradeBook.UserInterfaces
             }
             var name = parts[1];
             var type = parts[2];
-            var weighted = Boolean.Parse(parts[4]);
+            var weighted = Boolean.Parse(parts[3]);// make it bool so we can pass it forward to the other classes' parameters
 
             BaseGradeBook gradeBook ;
 
